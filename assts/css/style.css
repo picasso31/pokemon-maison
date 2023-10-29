@@ -2,5 +2,32 @@
     font-size: 20px;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+.pokemon{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+  
+}
+.table{
+    width: 450px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+        align-items: flex-start;
+        /* justify-content: space-around; */
+      padding: 30px;    
+     border-radius: 3px solid black;
+     background-color: rgb(15, 99, 246);
+}
+body{
+    background-image: url(./img/fond\'ecran.jpg);
+    background-position: center;
+    background-size:auto;
+}
+
+.titre{
+    font-size:30px;
+    color: rgb(1, 53, 240);
 }
