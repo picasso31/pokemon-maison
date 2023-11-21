@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./js/script.js" defer></script>
-    <link rel="stylesheet" href="./assts/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="pokemon">    
-    <fieldset class="table">           
-        <legend class="titre">SELECTIONNE TON POKEMON</legend>
-        <label for="pikatchu"><input type="radio" id="pikatchu" name="pokemon"  checked> Pikatchu</label>
-        <label for="salameche"><input type="radio" id="salameche" name="pokemon" > Salameche </label>
-        <label for="bulbizzard"><input type="radio" id="bulbizzard" name="pokemon"  > Bulbizzard </label>
-        <label for="carapuce"><input type="radio" id="carapuce" name="pokemon" > Carapuce</label> 
+        <fieldset class="table">           
+            <legend class="titre">SELECTIONNE TON POKEMON</legend>
+            <!-- Utilisation d'ID uniques pour les boutons radio -->
+            <label for="pikachu"><input type="radio" id="pikachu" name="pokemon" checked> Pikachu</label>
+            <label for="salameche"><input type="radio" id="salameche" name="pokemon"> Salameche</label>
+            <label for="carapuce"><input type="radio" id="carapuce" name="carapuce"> carapuce</label>
+            <label for="bulbizzard"><input type="radio" id="bulbizzard" name="bulbizzard"> bulbizzard</label>
 
-    </fieldset> 
-
-
-
+            <!-- Conteneur pour afficher les images -->
+            <div class="affichage">
+                <!-- Utilisation d'ID uniques pour les images -->
+                <img id="imgPikachu" src="./img/Pikachu.jpg" alt="Pikachu">
+                <img id="imgSalameche" src="./img/salameche.png" alt="Salameche">
+                <img id="imgCarapuce" src="./img/carapuce.png" alt="carapuce">
+                <img  id="imgBulbizzard"  src="./img/bulbizzard.jpg" alt="bulbizzard" alt="bulbizzard">
+            </div>
+        </fieldset> 
     </div>
-    
+
+    <!-- Inclusion du script JavaScript externe -->
+    <script src="script.js"></script>
 </body>
 </html>

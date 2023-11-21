@@ -22,12 +22,32 @@
      background-color: rgb(15, 99, 246);
 }
 body{
-    background-image: url(./img/fond\'ecran.jpg);
-    background-position: center;
-    background-size:auto;
+    background-image: url ;
+    background-size:auto ;
 }
 
 .titre{
     font-size:30px;
-    color: rgb(1, 53, 240);
+    color: rgb(0, 0, 0);
+}
+.affichage{
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid red; */
+}
+/* Ajoutez ici le style CSS pour les images de Pokémon */
+.affichage img {
+    max-width: 100%;
+    height: auto;
+    display: none;
+    border: 2px solid rgb(235, 0, 0);
+}
+
+.imgPikachu{
+    height: 400px;
+    width: 450px;
+}
+.imgsalamech{
+    height: 300px;
+    width: 250px;
 }
